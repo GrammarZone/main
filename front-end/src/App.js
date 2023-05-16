@@ -8,6 +8,8 @@ import Materials from "./components/materials/Materials";
 import Login from "./components/login/Login";
 import Admin from "./components/Admin/Admin";
 import User from "./components/User/User";
+import Test from "./components/test/Test";
+import Registration from "./components/registration/Registration";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
                     <Route exact path="/login" element={<Login/>}/>
                     <Route exact path="/user" element={<User/>}/>
                     <Route exact path="/admin" element={<Admin/>}/>
+                    <Route exact path="/test" element={<Test/>}/>
+                    <Route exact path="/registration" element={<Registration/>}/>
                 </Routes>
             </Router>
         </div>
