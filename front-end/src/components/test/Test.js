@@ -1,7 +1,8 @@
-import './Login.css';
+import './Test.css';
 import {NavLink} from "react-router-dom";
 
-function Login() {
+function Test() {
+
     return (
         <div>
 
@@ -17,20 +18,11 @@ function Login() {
 
             <div className={"main-cont"}>
 
-                <form className={"form-cont"}>
-                    <label>Email</label>
-                    <input type={"email"}/>
-                    <label>Password</label>
-                    <input type={"password"}/>
-                    <input className={"submit-btn"} type={"submit"}/>
-                    <div className={"register-form"}>
-                        <h1>Do not have account yet?</h1>
-                        <br/>
-                        <NavLink className={"register-btn"} to={'/registration'}>Register</NavLink>
-                    </div>
-                </form>
+                This is Test Page
+
             </div>
         </div>
     );
 }
-export default Login;
+
+export default Test;
