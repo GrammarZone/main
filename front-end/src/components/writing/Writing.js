@@ -189,10 +189,6 @@ function Writing() {
 
                 <div ref={a1Ref} className={"test-cont"}>
                     <NavLink className={"test-btn"} to={"/test"}>Test</NavLink>
-                    <NavLink className={"test-btn"} to={"/test"}>Test</NavLink>
-                    <NavLink className={"test-btn"} to={"/test"}>Test</NavLink>
-                    <NavLink className={"test-btn"} to={"/test"}>Test</NavLink>
-                    <NavLink className={"test-btn"} to={"/test"}>Test</NavLink>
                 </div>
 
                 <div ref={a2Ref} className={"test-cont"}>
